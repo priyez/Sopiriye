@@ -1,0 +1,76 @@
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 5px;
+    @media only screen and (min-width: 1020px) {
+        padding: 6px 20px;
+        flex-direction: row;
+    }
+  
+    .contact-image {
+      flex: none;
+      width: 30px;
+      outline: none;
+      height: 30px;
+      border-radius: 100%;
+      background-color: #f4f8fa;
+      margin-right: 2vw;
+      @media only screen and (min-width: 1020px) {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    }
+  
+    .contact-details {
+      min-width: 0;
+      position: relative;
+      flex: auto;
+    display: flex;
+    flex-direction: column;
+  
+    @media only screen and (min-width: 1020px) {
+       
+    }
+  
+      .contact-title {
+        font-weight: 600;
+        color: #fff;
+        white-space: nowrap;
+        font-size: 12.5px;
+        text-align: center;
+        text-overflow: ellipsis;
+        margin: 1vw 0;
+        @media only screen and (min-width: 1020px) {
+            display:none;
+        }
+      }
+
+     
+
+      a{
+        width: 100px;
+        height: 8vw;
+        margin: 2vw 0;
+        background: #737378;
+        text-align: center;
+        color: #000;
+        align-items: center;
+        border-radius: 5rem;
+        line-height: 1.9;
+        z-index:3;
+        @media only screen and (min-width: 1020px) {
+            margin: 0vw 0;
+            height: 2.5vw;
+            width: 150px;
+            line-height: 2.25;
+        }
+      }
+
+  
+    }
+  }
+  

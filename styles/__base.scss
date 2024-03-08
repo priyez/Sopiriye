@@ -1,0 +1,56 @@
+@import '__reset';
+@import '__variables';
+
+html,
+body {
+  font:
+    16px/16px 'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  background: $color-background;
+  color: $color-text;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: all 80ms ease-in;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-link-hover;
+  }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+  li {
+    padding: 0;
+    list-style: none;
+  }
+
+
+
+  .hideDesktop{
+    display: flex;
+    @media only screen and (min-width: 1020px) {
+    display: none;
+  }
+  }
+
+.hidden {
+  display: none;
+}

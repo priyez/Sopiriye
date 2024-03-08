@@ -1,0 +1,78 @@
+
+.spotify-card {
+    display: flex;
+    align-items: start;
+    padding: 20px 10px;
+    @media only screen and (min-width: 1020px) {
+        padding: 15px 20px;
+    }
+  
+    .spotify-image {
+      flex: none;
+      width: 60px;
+      outline: none;
+      height: 80px;
+      border-radius: 0.5625rem;
+      background-color: #f4f8fa;
+      margin-right: 2vw;
+      @media only screen and (min-width: 1020px) {
+        width: 104px;
+      height: 140px;
+      border-radius: 0.375rem;
+    }
+    }
+  
+    .spotify-details {
+      min-width: 0;
+      position: relative;
+      flex: auto;
+      width: 26vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5vw;
+    @media only screen and (min-width: 1020px) {
+       
+    }
+  
+      .spotify-title {
+        font-weight: 600;
+        color: #fff;
+        white-space: nowrap;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        margin: 1vw 0;
+        @media only screen and (min-width: 1020px) {
+            font-size: 22px;
+        }
+      }
+
+      p{
+        margin: 0;
+        font-size: 0.8rem;
+        display:none;
+        @media only screen and (min-width: 1020px) {
+           display:flex;
+        }
+      }
+
+      a{
+        width: 110px;
+        height: 8vw;
+        margin: 2vw 0;
+        background: #737378;
+        text-align: center;
+        color: #000;
+        align-items: center;
+        border-radius: 5rem;
+        line-height: 1.9;
+        z-index: 3;
+        @media only screen and (min-width: 1020px) {
+            margin: 1vw 0;
+            height: 2.5vw;
+            line-height: 2.25;
+        }
+      }
+  
+    }
+  }
+  
