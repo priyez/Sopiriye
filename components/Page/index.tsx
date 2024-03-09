@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 import Todo from '../Component/Todo/index';
