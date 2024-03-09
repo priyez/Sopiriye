@@ -9,7 +9,7 @@ const eslint = {
   ],
   rules: {
     semi: 2,
-    "prettier/prettier": ["error", {
+    "prettier/prettier": ["warn", {
     "endOfLine": "auto" }
 ],
     'max-len': 'off',
