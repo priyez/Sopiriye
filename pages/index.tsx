@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Lenis from '@studio-freight/lenis'
-import { Page } from '../components/Page/index'
-import {HeroComponent} from '../components/Hero/index'
-import { removeLoader } from "../animation/index"
+import Lenis from '@studio-freight/lenis';
+import { Page } from '../components/Page/index';
+import {HeroComponent} from '../components/Hero/index';
+import { removeLoader } from "../animation/index";
 import { sanityClient } from "../sanity";
 import { Todo } from "../typings";
 import {Hero} from "../typings";
