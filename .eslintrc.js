@@ -4,14 +4,17 @@ const eslint = {
     'airbnb',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-    // 'prettier',
+    'plugin:prettier/recrommended',
+    'prettier',
   ],
   rules: {
     semi: 2,
-    "prettier/prettier": ["warn", {
-    "endOfLine": "auto" }
-],
+    "prettier/prettier":[
+      "error", 
+      {
+        "endOfLine": "auto"
+      }
+    ],
     'max-len': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-no-bind': 'off',
