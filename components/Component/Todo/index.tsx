@@ -1,8 +1,5 @@
 
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
-
-
 
 
 export const Todo =({todos}) =>{
@@ -26,6 +23,7 @@ export const Todo =({todos}) =>{
         const dateYear = year;
         setFormattedYear(dateYear);
        
+        setIsCompleted(todos)
       
       }, []);
       const footerText ="Continuously honing my skills in web development, I strive to stay updated with the latest technologies and design trends. Collaborating closely with designers and stakeholders, I ensure that the final product not only meets but exceeds expectations. From optimizing performance to enhancing user experience, I am dedicated to delivering seamless digital solutions. "
