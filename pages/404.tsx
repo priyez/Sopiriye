@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Link from 'next/link';
-import { defaultDescription, defaultKeywords } from 'lib/constants';
-
-const layoutProps = {
-  title: 'Not Found',
-  description: defaultDescription,
-  keywords: defaultKeywords,
-};
+import Link from 'next/link';;
 
 const Paragraph = styled.p.attrs({
   className: 'main__description',
