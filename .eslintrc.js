@@ -4,7 +4,7 @@ const eslint = {
     'airbnb',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recrommended',
+    'plugin:prettier/recommended',
     // 'prettier',
   ],
   rules: {
